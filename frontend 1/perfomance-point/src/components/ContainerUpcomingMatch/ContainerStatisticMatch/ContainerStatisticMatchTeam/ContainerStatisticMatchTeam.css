@@ -1,0 +1,35 @@
+.stat-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.stat-table th, .stat-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top; /* Для выравнивания содержимого по верхнему краю ячейки */
+}
+
+.stat-table th {
+    background-color: #f2f2f2;
+}
+
+.stat-table tfoot td {
+    border-top: 2px solid #333; /* Добавим более толстую горизонтальную линию для значения внизу */
+}
+
+.stat-table tfoot td:first-child {
+    font-weight: bold; /* Сделаем первую ячейку сжырной */
+}
+
+/* Стилизация для чередования фонов строк */
+.stat-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.container-result-matches h3 {
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto
+}

@@ -1,0 +1,86 @@
+.account-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.change-password-container {
+    background: white;
+    max-width: 400px;
+    margin: 2em; /* Устанавливаем верхний и нижний отступ, левый и правый - auto */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /*margin-right: auto; !* Добавляем margin-right: auto для выравнивания слева *!*/
+    /*margin-left: 2em; !* Устанавливаем margin-left: 0, чтобы сбросить любые предыдущие стили margin *!*/
+}
+
+.change-password-container input::placeholder {
+    color: rgba(140, 140, 140, 0.5); /* Настройте прозрачность, где 0.5 - это 50% прозрачности */
+}
+
+.change-password-container h3{
+    margin: 0.5em auto; /* Добавляем небольшой отступ сверху и снизу */
+    text-align: center;
+}
+
+.change-password-container p{
+    color: #888888;
+
+    margin: 1em auto;
+    text-align: center;
+}
+
+.change-password-container.form-group {
+    margin-bottom: 15px;
+}
+
+.change-password-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.change-password-container input[type="text"],
+.change-password-container input[type="email"],
+.change-password-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.change-password-container.captcha {
+    display: flex;
+    justify-content: center;
+}
+
+
+.change-password-btn button {
+    display: block; /* Превращаем кнопку в блочный элемент */
+    width: 100%; /* Занимает всю доступную ширину */
+    margin: 0.5em auto; /* Центрируем кнопку по горизонтали */
+
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.change-password-btn button:hover {
+    background-color: #0056b3;
+}
+
+.change-password-btn button:disabled{
+    background-color: rgba(0, 86, 179, 0.5);
+    cursor: not-allowed;
+}
+
+.change-password-container label.required::after {
+    content: '*';
+    color: red;
+}
+
+

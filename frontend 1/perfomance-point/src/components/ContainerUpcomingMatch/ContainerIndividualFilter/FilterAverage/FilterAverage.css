@@ -1,0 +1,41 @@
+.filter-average{
+    display: flex;
+    margin-top: 1em;
+}
+
+.filter-average.button-with-input{
+    display: flex;
+    align-items: center;
+    position: relative;
+    /*height: 29px;*/
+    /*width: 1em; !* Установите ширину input *!*/
+    padding: 0.25em 0.5em;
+    margin: 0;
+}
+
+.filter-average.button-all{
+    position: relative;
+    padding: 0.2em 0.5em;
+    height: 28px;
+}
+
+
+.filter-average.select-in-button {
+    font-size: 13px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.filter-average.input-in-button{
+
+    /*height: 19px;*/
+    /*width: 26px; !* Установите ширину input *!*/
+    width: 26px;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-average input[type="text"] {
+    margin-left: 4px;
+}

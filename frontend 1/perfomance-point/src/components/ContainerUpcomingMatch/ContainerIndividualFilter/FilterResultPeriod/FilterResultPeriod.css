@@ -1,0 +1,18 @@
+.select-result-period{
+    align-items: stretch;
+}
+
+.select-result-period.button-with-select{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    /* height: 29px; */
+    padding: 0.4em 0.5em;
+    margin: 0;
+}
+
+.select-result-period.select-in-button {
+    font-size: 13px;
+    padding-top: 0;
+    margin: 0;
+}

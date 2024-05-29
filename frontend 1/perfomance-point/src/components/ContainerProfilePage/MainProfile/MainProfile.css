@@ -1,0 +1,52 @@
+.main-profile {
+    font-size: 18px;
+}
+
+.main-profile p {
+    margin-bottom: 5px;
+}
+
+.email-confirm {
+    display: flex;
+    align-items: center;
+}
+
+.email-confirm p {
+    margin-right: 5px;
+    height: 19px;
+}
+
+.email-confirm img {
+    height: 19px;
+    width: 19px;
+    margin-right: 5px;
+}
+
+.email-confirm button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.equal-width {
+    width: 50%; /* Чтобы оба столбца занимали равное пространство */
+}
+
+.subscription-table th {
+    background: #cccccc;
+}
+
+.subscription-table th, .subscription-table td{
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+}

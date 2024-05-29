@@ -1,0 +1,22 @@
+[
+{
+    "model": "ParserFlashScore.matchesshedule",
+    "pk": 5,
+    "fields": {
+        "championship": 1,
+        "team_home": "СКА",
+        "team_away": "Динамо_Москва",
+        "date": "2024-04-02T19:30:00Z"
+    }
+},
+{
+    "model": "ParserFlashScore.matchesshedule",
+    "pk": 6,
+    "fields": {
+        "championship": 1,
+        "team_home": "Локомотив",
+        "team_away": "ЦСКА",
+        "date": "2024-04-11T17:00:00Z"
+    }
+}
+]

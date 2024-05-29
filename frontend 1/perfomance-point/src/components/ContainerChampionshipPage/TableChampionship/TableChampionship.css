@@ -1,0 +1,8 @@
+.average-table a{
+    color: black;
+    text-decoration: none;
+}
+
+.average-table a:hover{
+    text-decoration: underline;
+}

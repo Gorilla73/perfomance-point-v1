@@ -1,0 +1,108 @@
+.championship{
+    margin-top: 30px;
+}
+
+/*.championship-container {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+.header {
+    background-color: #b5b5b5;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header h4{
+    font-size: 16px;
+}
+
+.header a{
+
+    /*background-color: inherit;*/
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.arrow.right {
+    /*border-top: 8px solid transparent;*/
+    /*border-bottom: 8px solid  transparent;*/
+
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #318cf8; /* Цвет треугольника вправо */
+
+}
+
+.arrow.down {
+    /*border-bottom: 8px solid #318cf8;*/
+
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid #318cf8; /* Цвет треугольника вниз */
+
+}
+
+.matches-list {
+    background-color: white;
+    border-top: 1px solid #f2f2f2;
+}
+
+.matches-list a{
+    text-decoration: none;
+}
+
+.matches-list a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.match-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.matches-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.matches-list a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.match-item + .match-item {
+    border-top: 1px solid #318cf8; /* Линия между элементами */
+}
+
+
+
+/*.detail-button {*/
+/*    background-color: #318cf8;*/
+/*    color: white;*/
+/*}*/
+
+
+
+

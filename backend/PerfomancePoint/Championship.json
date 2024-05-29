@@ -1,0 +1,34 @@
+[
+{
+    "model": "ParserFlashScore.championship",
+    "pk": 1,
+    "fields": {
+        "championship": "КХЛ",
+        "image_country_championship": "svg/Russia.svg.png"
+    }
+},
+{
+    "model": "ParserFlashScore.championship",
+    "pk": 2,
+    "fields": {
+        "championship": "НХЛ",
+        "image_country_championship": "svg/United_States.svg.png"
+    }
+},
+{
+    "model": "ParserFlashScore.championship",
+    "pk": 3,
+    "fields": {
+        "championship": "КХЛ_ПЛЕЙ-ОФФ",
+        "image_country_championship": "svg/Russia.svg_Chnrk2T.png"
+    }
+},
+{
+    "model": "ParserFlashScore.championship",
+    "pk": 4,
+    "fields": {
+        "championship": "НХЛ_ПЛЕЙ-ОФФ",
+        "image_country_championship": "svg/United_States.svg_lXftn7s.png"
+    }
+}
+]

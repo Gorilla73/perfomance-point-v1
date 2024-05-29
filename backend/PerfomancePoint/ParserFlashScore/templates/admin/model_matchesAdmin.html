@@ -1,0 +1,16 @@
+{% extends 'admin/change_list.html' %}
+
+{% block object-tools %}
+
+  <form action="parserKHL/" method="POST">
+    {% csrf_token %}
+    <input type="submit" name = "ParserKHL" value="Парсер КХЛ" />
+  </form>
+
+  <form action="parserNHL/" method="POST">
+    {% csrf_token %}
+    <input type="submit" name = "ParserNHL" value="Парсер НХЛ" />
+  </form>
+
+    {{ block.super }}
+{% endblock %}

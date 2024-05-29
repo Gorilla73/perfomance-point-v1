@@ -1,0 +1,12 @@
+.badge.line {
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: #318cf8;
+    color: white !important; /* Цвет текста */
+    border-radius: 5px; /* Закругленные углы */
+}
+
+.badge.line:hover{
+    background-color: #007bff
+}
+

@@ -1,0 +1,19 @@
+.championship-info {
+    display: flex;
+    align-items: center;
+}
+
+.championship-info img {
+    width: 100px; /* Размер логотипов команд */
+    height: 50px;
+    margin-right: 2em;
+    /*margin-right: 50px; !* Отступ между логотипом и названием команды *!*/
+}
+
+.championship-info h3 {
+    /*margin: 0 auto; !* Центрируем заголовок внутри родительского контейнера *!*/
+}
+
+.average-data-championship {
+    margin-left: auto; /* Выравниваем данные по правому краю */
+}

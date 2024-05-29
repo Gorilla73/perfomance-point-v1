@@ -1,0 +1,79 @@
+.registration-container {
+    background: white;
+    max-width: 400px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-container input::placeholder {
+    color: rgba(140, 140, 140, 0.5); /* Настройте прозрачность, где 0.5 - это 50% прозрачности */
+}
+
+.registration-container h3{
+    margin: 0.5em auto; /* Добавляем небольшой отступ сверху и снизу */
+    text-align: center;
+}
+
+.registration-container p{
+    color: #888888;
+
+    margin: 1em auto;
+    text-align: center;
+}
+
+.registration-container.form-group {
+    margin-bottom: 15px;
+}
+
+.registration-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.captcha {
+    display: flex;
+    justify-content: center;
+}
+
+
+.registration-btn button {
+    display: block; /* Превращаем кнопку в блочный элемент */
+    width: 100%; /* Занимает всю доступную ширину */
+    margin: 0.5em auto; /* Центрируем кнопку по горизонтали */
+
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-btn button:hover {
+    background-color: #0056b3;
+}
+
+.registration-btn button:disabled{
+    background-color: rgba(0, 86, 179, 0.5);
+    cursor: not-allowed;
+}
+
+label.required::after {
+    content: '*';
+    color: red;
+}
+
+

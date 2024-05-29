@@ -1,0 +1,39 @@
+.container-shared-filter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.container-shared-filter .filter-season {
+    margin-top: 0;
+}
+
+.container-shared-filter .select-result-period{
+    margin-top: 0;
+}
+
+.container-shared-filter .filter-championship{
+    margin-top: 0;
+}
+
+.container-shared-filter .select-place{
+    margin-top: 0;
+}
+
+.individual-filter{
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+.filter-team.left > h3{
+    margin-bottom: 1em;
+}
+
+.filter-team.right > h3{
+    margin-bottom: 1em;
+}
+
+/*.individual-filter .select-result-period{*/
+/*    margin-top: 1em;*/
+/*}*/

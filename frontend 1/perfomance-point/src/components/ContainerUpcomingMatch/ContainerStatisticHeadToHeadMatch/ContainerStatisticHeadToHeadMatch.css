@@ -1,0 +1,21 @@
+.container-result-matches.head-to-head{
+    /*width: calc(50% - 1em);*/
+    width: 75%;
+    align-items: center;
+    background-color: white;
+    margin: 2em auto;
+    padding: 15px;
+    border: 2px solid darkblue;
+    height: 100%;
+}
+
+.container-possibilities.head-to-head{
+    /*width: calc(50% - 1em);*/
+    width: 75%;
+    align-items: center;
+    background-color: white;
+    margin: 2em auto;
+    padding: 15px;
+    border: 2px solid darkblue;
+    height: 100%;
+}

@@ -1,0 +1,209 @@
+[
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 1,
+    "fields": {
+        "team_name": "Динамо_Москва",
+        "championship": 1,
+        "image_team": "svg/logo-dinamoMoscow.svg.png"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 2,
+    "fields": {
+        "team_name": "СКА",
+        "championship": 1,
+        "image_team": "svg/logo-ska.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 3,
+    "fields": {
+        "team_name": "Локомотив",
+        "championship": 1,
+        "image_team": "svg/logo-lokomotiv.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 4,
+    "fields": {
+        "team_name": "Спартак_Москва",
+        "championship": 1,
+        "image_team": "svg/logo-spartak.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 5,
+    "fields": {
+        "team_name": "Северсталь",
+        "championship": 1,
+        "image_team": "svg/logo-severstal.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 6,
+    "fields": {
+        "team_name": "ЦСКА",
+        "championship": 1,
+        "image_team": "svg/logo-cska.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 7,
+    "fields": {
+        "team_name": "Торпедо",
+        "championship": 1,
+        "image_team": "svg/logo-torpedo.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 8,
+    "fields": {
+        "team_name": "Динамо_Минск",
+        "championship": 1,
+        "image_team": "svg/logo-dinamoMinsk.svg.png"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 9,
+    "fields": {
+        "team_name": "Куньлунь_РС",
+        "championship": 1,
+        "image_team": "svg/logo-kunlun.png"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 10,
+    "fields": {
+        "team_name": "Сочи",
+        "championship": 1,
+        "image_team": "svg/logo-sochi.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 11,
+    "fields": {
+        "team_name": "Витязь",
+        "championship": 1,
+        "image_team": "svg/logo-vitaz.svg.png"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 12,
+    "fields": {
+        "team_name": "Металлург_Магнитогорск",
+        "championship": 1,
+        "image_team": "svg/logo-metallurg.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 13,
+    "fields": {
+        "team_name": "Авангард",
+        "championship": 1,
+        "image_team": "svg/logo-avangard.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 14,
+    "fields": {
+        "team_name": "Салават_Юлаев",
+        "championship": 1,
+        "image_team": "svg/logo-salavat.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 15,
+    "fields": {
+        "team_name": "Ак_Барс",
+        "championship": 1,
+        "image_team": "svg/logo-akBars.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 16,
+    "fields": {
+        "team_name": "Автомобилист",
+        "championship": 1,
+        "image_team": "svg/logo-avtomobilist.svg.png"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 17,
+    "fields": {
+        "team_name": "Трактор",
+        "championship": 1,
+        "image_team": "svg/logo-tractor.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 18,
+    "fields": {
+        "team_name": "Лада",
+        "championship": 1,
+        "image_team": "svg/logo-lada.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 19,
+    "fields": {
+        "team_name": "Амур",
+        "championship": 1,
+        "image_team": "svg/logo-amur.png"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 20,
+    "fields": {
+        "team_name": "Нефтехимик",
+        "championship": 1,
+        "image_team": "svg/logo-neftehimik.svg.png"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 21,
+    "fields": {
+        "team_name": "Сибирь",
+        "championship": 1,
+        "image_team": "svg/logo-sibir.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 22,
+    "fields": {
+        "team_name": "Адмирал",
+        "championship": 1,
+        "image_team": "svg/logo-admiral.svg"
+    }
+},
+{
+    "model": "ParserFlashScore.teams",
+    "pk": 23,
+    "fields": {
+        "team_name": "Барыс",
+        "championship": 1,
+        "image_team": "svg/logo-barys.svg"
+    }
+}
+]

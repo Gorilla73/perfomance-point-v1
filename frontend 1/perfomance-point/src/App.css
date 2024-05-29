@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: #f1f1f1;
+    /*width: 100vw; !* 100% ширина окна просмотра *!*/
+    /*height: 100vh; !* 100% высота окна просмотра *!*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}

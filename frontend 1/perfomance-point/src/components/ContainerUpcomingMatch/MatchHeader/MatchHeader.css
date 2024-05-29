@@ -1,0 +1,46 @@
+.match-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datetime{
+    /*margin-top: -20px;*/
+    /*margin-top: -4em;*/
+}
+
+.team {
+    display: flex;
+    align-items: center;
+}
+
+.team a{
+    text-decoration: none;
+    color: black;
+}
+
+.team a:hover{
+    text-decoration: underline;
+}
+
+.team img {
+    width: 100px; /* Размер логотипов команд */
+    height: 100px;
+    /*margin-right: 50px; !* Отступ между логотипом и названием команды *!*/
+}
+
+.home img{
+    margin-right: 4em; /* Отступ между логотипом и названием команды */
+}
+
+.away img{
+    margin-left: 50px; /* Отступ между логотипом и названием команды */
+}
+
+/*.team-away img {*/
+/*    width: 100px; !* Размер логотипов команд *!*/
+/*    height: 100px;*/
+/*    margin-left: 50px; !* Отступ между логотипом и названием команды *!*/
+/*}*/
+
+

@@ -1,0 +1,88 @@
+.container-statistic{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    background-color: white;
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 15px;
+    border: 2px solid darkblue;
+}
+
+.statistic-and-period{
+    display: flex;
+    justify-content: space-between;
+}
+
+.count_match{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+
+}
+
+.container-statistic button {
+    display: inline-block;
+    font-size: 13px;
+    background-color: #cccccc;
+    padding: 0.5em 0.75em;
+    border: none;
+    /*margin-right: 5px;*/
+    cursor: pointer;
+}
+
+.container-statistic button:hover {
+    background-color: #4c9dfa;
+    color: white;
+}
+
+.container-statistic button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.individual-filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-team{
+    flex: 1;
+    background-color: white;
+    margin-top: 2em;
+    padding: 2em;
+    border: 2px solid #007bff;
+}
+
+.filter-team.left{
+    margin-right: 1em;
+}
+
+.filter-team.right{
+    margin-left: 1em;
+}
+
+.update{
+    margin-top: 1em;
+    width: 100%;
+}
+
+.update.button-update{
+    background-color: rgba(0, 215, 40, 0.9);
+    font-size: 15px;
+    color: white;
+    padding: 0.25em;
+    width: 100%;
+}
+
+.update.button-update.active{
+    background-color: rgba(0, 230, 47, 0.9);
+}
+
+.update.button-update.active:hover{
+    background-color: rgba(0, 200, 40, 0.9);
+}
+
+.update.button-update:disabled{
+    background-color: rgba(0, 215, 40, 0.6);
+    cursor: not-allowed;
+}

@@ -1,0 +1,14 @@
+.container{
+    /*display: flex;*/
+    background-color: white;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid darkblue;
+}
+
+.nav-upcoming-match{
+    /*display: flex;*/
+    max-width: 1200px;
+    margin: 2em auto;
+}

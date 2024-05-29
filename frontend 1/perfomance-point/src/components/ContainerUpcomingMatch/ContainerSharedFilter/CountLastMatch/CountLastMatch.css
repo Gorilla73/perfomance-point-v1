@@ -1,0 +1,26 @@
+.select-last-match.button-with-input{
+    height: 29px;
+    width: 40px; /* Установите ширину input */
+    padding: 0;
+    margin: 0;
+}
+
+.select-last-match.input-in-button{
+
+    /*height: 25px;*/
+    /*width: 26px; !* Установите ширину input *!*/
+    height: 70%;
+    width: 26px;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.select-last-match input[type="text"] {
+    font-size: 12px;
+    padding: 3px;
+    top: 0;
+    right: 0;
+
+}

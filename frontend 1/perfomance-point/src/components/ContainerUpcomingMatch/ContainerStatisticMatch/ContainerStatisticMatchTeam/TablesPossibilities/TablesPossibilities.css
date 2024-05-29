@@ -1,0 +1,41 @@
+.group-table-bet{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 2em;
+    font-size: 13px;
+}
+
+.table-bet{
+    border-collapse: collapse;
+}
+
+.table-bet thead{
+    background-color: #cccccc;
+
+}
+
+.table-bet td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.table-bet tr > :first-child {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 5px;
+}
+
+.table-bet th {
+    text-align: center;
+    padding: 5px;
+}
+
+.bg-75{
+    background: rgba(150, 255, 150, 0.6);
+}
+
+.bg-90{
+    background: rgb(0, 255, 0);
+}
